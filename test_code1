@@ -1,0 +1,17 @@
+#include "main.h"
+#include <stdio.h>
+
+/**
+ * main - test function
+ *
+ * Return: 0
+ */
+int main(void)
+{
+	char *s = "BOY";
+	int len;
+
+	len = rot13(s);
+	printf("\n%d\n", len);
+	return (0);
+}
